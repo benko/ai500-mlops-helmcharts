@@ -38,7 +38,7 @@ spec:
       restartPolicy: Never
       containers:
       - name: create-buckets
-        image: image-registry.openshift-image-registry.svc:5000/openshift/tools:latest
+        image: registry.redhat.io/openshift4/ose-tools-rhel9:latest
         imagePullPolicy: IfNotPresent
         command:
         - /bin/bash
